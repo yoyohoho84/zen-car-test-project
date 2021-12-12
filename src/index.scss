@@ -1,0 +1,39 @@
+@import "assets/style-tokens/_color-palette";
+@import "assets/style-tokens/_fonts";
+@import "assets/style-tokens/_mixins";
+
+body {
+  margin: 0;
+  font-size: 1.125rem;
+  font-family: "OpenSans", sans-serif;
+  font-weight: normal;
+  color: $black;
+}
+
+.textarea {
+  border-radius: 0.625rem;
+  width: 100%;
+  resize: none;
+  height: 6.25rem;
+  margin-bottom: 1.875rem;
+  outline: none;
+  padding: 0.9375rem;
+  min-height: 2.75rem;
+  border-color: $gray;
+  font-size: 0.9375rem;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  animation: 1s spin linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

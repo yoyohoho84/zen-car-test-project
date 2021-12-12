@@ -1,0 +1,10 @@
+query GetWorks {
+  wizardWorks(where: {}, order: { orderIndex: asc }) {
+    id
+    image {
+      file {
+        path
+      }
+    }
+  }
+}

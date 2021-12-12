@@ -1,0 +1,29 @@
+@import "../../../assets/style-tokens/color-palette";
+
+.authItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: $gray;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 0.9375rem;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.text {
+  font-size: 14px;
+}
