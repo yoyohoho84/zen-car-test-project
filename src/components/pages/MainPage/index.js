@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { ActionSwitcher, Works, Symptoms } from "../../index";
 import styles from "./MainPage.module.scss";
-import { useQuery } from "@apollo/react-hooks";
-// import GetWorks from "../../../querys/GetWorks.graphql"; // так не работает
 import { BackIcon } from "../../icons";
 
 const MainPage = () => {
@@ -73,7 +71,10 @@ const MainPage = () => {
               : "Какой узел автомобиля нуждается в ремонте?"}
           </div>
 
-          <ActionSwitcher setActiveTab={setActiveTab} />
+          <ActionSwitcher
+            setActiveTab={setActiveTab}
+            setCurrentVehicleWorks={setCurrentVehicleWorks}
+          />
         </div>
         <div className={styles.switcherContainer}></div>
       </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./ActionSwitcher.module.scss";
 
-const ActionSwitcher = ({ setActiveTab }) => {
+const ActionSwitcher = ({ setActiveTab, setCurrentVehicleWorks }) => {
   const [action, setAction] = useState([
     { name: "Выбрать услуги", active: true },
     {
@@ -11,6 +11,8 @@ const ActionSwitcher = ({ setActiveTab }) => {
   ]);
 
   const setActiveBtn = (name) => {
+    setCurrentVehicleWorks([]);
+
     if (name === "Выбрать услуги") {
       setActiveTab("wizardWorks");
     } else {
