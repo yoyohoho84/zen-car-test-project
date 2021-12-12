@@ -6,7 +6,7 @@
 
 - `https://github.com/yoyohoho84/zen-car-test-project` клонируем проект.
 - `yarn install or npm install` устанавливаем зависимости.
-- `yarn start or npm install` запускаем проект.
+- `yarn start or npm start` запускаем проект.
 
 
 ## Подробнее про CRA
