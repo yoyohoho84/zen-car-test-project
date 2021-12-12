@@ -3,9 +3,10 @@
 
 # Инструкция по установке и запуску приложения.
 
+
 - `https://github.com/yoyohoho84/zen-car-test-project` клонируем проект.
-- `yarn install` устанавливаем зависимости.
-- `yarn start` запускаем проект.
+- `yarn install or npm install` устанавливаем зависимости.
+- `yarn start or npm install` запускаем проект.
 
 
 ## Подробнее про CRA

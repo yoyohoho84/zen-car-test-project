@@ -6,7 +6,7 @@ export const ZenCarLogoIcon = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_607_13)">
+    <g clipPath="url(#clip0_607_13)">
       <path
         d="M87.55 46.1201H104.08V50.7301H81.16V46.1201L97.49 21.6401H81.28V17.1201H103.96V21.6701L87.55 46.1201Z"
         fill="#FF0034"
@@ -57,25 +57,25 @@ export const ZenCarLogoIcon = () => (
 );
 
 export const LanguageIcon = () => (
-  <svg viewBox="0 0 24 24" aria-hidden="true">
+  <svg viewBox="0 0 24 24" ariaHidden="true">
     <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95c-.32-1.25-.78-2.45-1.38-3.56 1.84.63 3.37 1.91 4.33 3.56zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56-1.84-.63-3.37-1.9-4.33-3.56zm2.95-8H5.08c.96-1.66 2.49-2.93 4.33-3.56C8.81 5.55 8.35 6.75 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2s.07-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95c-.96 1.65-2.49 2.93-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"></path>
   </svg>
 );
 
 export const LogInIcon = () => (
-  <svg viewBox="0 0 24 24" aria-hidden="true">
+  <svg viewBox="0 0 24 24" ariaHidden="true" fill="currentColor">
     <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6h2c0-1.66 1.34-3 3-3s3 1.34 3 3v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm0 12H6V10h12v10zm-6-3c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path>
   </svg>
 );
 
 export const RegistrationIcon = () => (
-  <svg viewBox="0 0 24 24" aria-hidden="true">
+  <svg viewBox="0 0 24 24" ariaHidden="true" fill="currentColor">
     <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7-.25c.22 0 .41.1.55.25.12.13.2.31.2.5 0 .41-.34.75-.75.75s-.75-.34-.75-.75c0-.19.08-.37.2-.5.14-.15.33-.25.55-.25zM19 19H5V5h14v14zM12 6c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3zm0 4c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-6 6.47V18h12v-1.53c0-2.5-3.97-3.58-6-3.58s-6 1.07-6 3.58zM8.31 16c.69-.56 2.38-1.12 3.69-1.12s3.01.56 3.69 1.12H8.31z"></path>
   </svg>
 );
 
 export const BackIcon = () => (
-  <svg focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+  <svg focusable="false" viewBox="0 0 24 24" ariaHidden="true">
     <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"></path>
   </svg>
 );
@@ -104,8 +104,8 @@ export const SpinnerIcon = () => (
         gradientUnits="userSpaceOnUse"
         gradientTransform="translate(12.0002 12) rotate(-180) scale(13.3333)"
       >
-        <stop offset="0.248667" stop-color="#363636" />
-        <stop offset="1" stop-color="#363636" stop-opacity="0" />
+        <stop offset="0.248667" stopColor="#363636" />
+        <stop offset="1" stopColor="#363636" stopOpacity="0" />
       </radialGradient>
     </defs>
   </svg>
@@ -115,7 +115,7 @@ export const RemoveIcon = () => (
   <svg
     focusable="false"
     viewBox="0 0 24 24"
-    aria-hidden="true"
+    ariaHidden="true"
     fill="currentColor"
   >
     <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z"></path>
