@@ -3,7 +3,7 @@
 
 # Инструкция по установке и запуску приложения.
 
-- `https://github.com/Kirill-Andreev-09/zen-car-test-project` клонируем проект.
+- `https://github.com/yoyohoho84/zen-car-test-project` клонируем проект.
 - `yarn install` устанавливаем зависимости.
 - `yarn start` запускаем проект.
 
